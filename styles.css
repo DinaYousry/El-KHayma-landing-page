@@ -1,0 +1,119 @@
+
+      @media screen and (max-width: 1000px ) and (min-width: 416px) {
+           .navbar-nav{width: 100% !important;}
+        }
+
+@media screen and (max-width: 1000px ) and (min-width: 200px) {
+        .a {order:2 !important ; }
+        .b {order:1!important; }
+        #vi{ display: flex!important;}
+        #no{display:contents !important; }
+        /* .navbar-nav{width:300px !important;} */
+        .k{display: none;}
+        .doo{ top: 40%!important;
+        left: 15%!important;}
+        .vuvu{height: 12%!important;
+        background-repeat: no-repeat!important;}
+        #collapsibleNavbar1{width: fit-content; }
+        .navbar-nav{ margin-left: auto;margin-right: auto;padding-left: 25%;}
+            } 
+
+        #vi{
+       display: none;
+   }
+   #no{
+    display: none;
+   }
+   
+    .header , #a , #b{
+        background-color: #EFECEC;
+        color: #D83D39;
+        font-size: 30px;
+           }
+        #b ,#sss{
+            position: relative;
+         text-decoration: none; 
+         font-weight: 500;     
+          }
+       
+#b::after{
+content: "";
+position: absolute;
+background-color: #D83D39;
+height: 3px;
+width: 75px;
+bottom: -5px;
+left: 7%;
+}
+#sss::after{
+  content: "";
+  position: absolute;
+  background-color: #D83D39;
+  height: 3px;
+  width: 120px;
+  bottom: -5px;
+  left: 3%;
+  }
+.cc{
+    width: 90%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.navbar-toggler{
+  border: 1px solid rgba(216,61,57);
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(216,61,57)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.tex{
+  color: #D83D39;
+  font-size: 34px;
+  font-weight: 600;
+}
+.tex2{
+  font-size: 23px;
+}
+.slider{
+  background-color: #D83D39;
+  width: 30%;
+  height: 2px;
+}
+.footer{
+  background-color: #D83D39;
+  color: white;
+  text-align: center;
+  height: 110px;
+}
+.fa-facebook {
+  background: #D83D39;
+  color: white;
+  font-size: 25px;
+}
+.fa-instagram {
+  background: #D83D39;
+  color: white;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.img-fluid{
+  background-image: url("Pics/Cover\ For\ Web.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.con{
+  text-align: center;
+}
+.texi{
+  color: #D83D39;
+}
+body {
+  background-image: url('Pics/Mask.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
